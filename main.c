@@ -67,6 +67,7 @@ int main()
                         expSum += convertBinaryToDecimal((int)exp[7-expCount],expCount);
                     }
                     expSum = expSum - 127;
+                    expSum = expSum - 127;
                     printf("exp = %d\n ",expSum);
                 }
             }
